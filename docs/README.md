@@ -1,7 +1,7 @@
 # DRAS-MIL <img src="CISTIB logo.png" align="right" width="240"/>
 **D**iscriminative **R**egion **A**ctive **S**ampling for **M**ultiple **I**nstance **L**earning
 
-[Preprint](https://arxiv.org/abs/2302.08867) | [Presentation & Conference Paper](https://spie.org/medical-imaging/presentation/Efficient-subtyping-of-ovarian-cancer-histopathology-whole-slide-images-using/12471-38?enableBackToBrowse=true)
+[Preprint](https://arxiv.org/abs/2302.08867) | [Presentation & Conference Paper](https://spie.org/medical-imaging/presentation/Efficient-subtyping-of-ovarian-cancer-histopathology-whole-slide-images-using/12471-38?enableBackToBrowse=true) | [Cite](#reference) 
 
 *DRAS-MIL is a sampling approach to improve the efficiency of evaluating histopathology slides while minimising the loss of classification accuracy.* 
 
@@ -56,3 +56,16 @@ python bootstrapping.py --num_classes 2 --model_names main_nosampling_reg00079_d
 
 ## Reference
 This code is forked from the [CLAM repository](https://github.com/mahmoodlab/CLAM) with corresponding [paper](https://www.nature.com/articles/s41551-020-00682-w). This repository and the original CLAM repository are both available for non-commercial academic purposes under the GPLv3 License.
+
+Breen, J., Allen, K., Zucker, K., Hall, G., Orsi, N.M. and Ravikumar, N., 2023, April. Efficient subtyping of ovarian cancer histopathology whole slide images using active sampling in multiple instance learning. In Proceedings of SPIE 12471 (Vol. 12471). SPIE. https://doi.org/10.1117/12.2653869.
+
+```
+@inproceedings{breen2023efficient,
+  title={Efficient subtyping of ovarian cancer histopathology whole slide images using active sampling in multiple instance learning},
+  author={Breen, Jack and Allen, Katie and Zucker, Kieran and Hall, Geoff and Orsi, Nicolas M and Ravikumar, Nishant},
+  booktitle={Proceedings of SPIE 12471},
+  volume={12471},
+  year={2023},
+  organization={SPIE}
+}
+```
